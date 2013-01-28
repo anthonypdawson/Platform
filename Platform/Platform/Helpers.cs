@@ -1,9 +1,15 @@
 ﻿
+using Library.Physics;
 using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Graphics;
 namespace Platform
 {
-    class Helpers
+    public static class Helpers
     {
+        public static void Draw(this SpriteBatch spriteBatch, Texture2D texture, Vector position, Color color)
+        {
+            spriteBatch.Draw(texture, position.Vector2, color);
+        }
     }
 
     static class PhysicsHelper

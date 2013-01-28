@@ -3,16 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Platform", "Platform\Platform\Platform.csproj", "{C4AA7323-0EC1-4E8D-9E81-7D9C43148DA3}"
 EndProject
-Project("{96E2B04D-8817-42C6-938A-82C39BA4D311}") = "PlatformContent", "Platform\PlatformContent\PlatformContent.contentproj", "{2FFA351C-E5A6-493B-A07A-D70D71A5B242}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContentHelper", "..\ContentHelper\ContentHelper.csproj", "{90B0E629-1018-44A4-A431-EA7AAEF3FC35}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Library.Physics", "..\Library.Physics\Library.Physics.csproj", "{A56716FB-1B8C-4BA0-96BB-06CA1BAEF733}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlatformContent", "Platform\PlatformContent\PlatformContent.contentproj", "{2FFA351C-E5A6-493B-A07A-D70D71A5B242}"
+EndProject
 Global
-	GlobalSection(CodealikeProperties) = postSolution
-		SolutionGuid = 84bcecf1-d2a7-4a0f-9169-1ec414a0b903
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
 		Release|x86 = Release|x86
@@ -22,8 +19,6 @@ Global
 		{C4AA7323-0EC1-4E8D-9E81-7D9C43148DA3}.Debug|x86.Build.0 = Debug|x86
 		{C4AA7323-0EC1-4E8D-9E81-7D9C43148DA3}.Release|x86.ActiveCfg = Release|x86
 		{C4AA7323-0EC1-4E8D-9E81-7D9C43148DA3}.Release|x86.Build.0 = Release|x86
-		{2FFA351C-E5A6-493B-A07A-D70D71A5B242}.Debug|x86.ActiveCfg = Debug|x86
-		{2FFA351C-E5A6-493B-A07A-D70D71A5B242}.Release|x86.ActiveCfg = Release|x86
 		{90B0E629-1018-44A4-A431-EA7AAEF3FC35}.Debug|x86.ActiveCfg = Debug|x86
 		{90B0E629-1018-44A4-A431-EA7AAEF3FC35}.Debug|x86.Build.0 = Debug|x86
 		{90B0E629-1018-44A4-A431-EA7AAEF3FC35}.Release|x86.ActiveCfg = Release|x86
@@ -32,8 +27,13 @@ Global
 		{A56716FB-1B8C-4BA0-96BB-06CA1BAEF733}.Debug|x86.Build.0 = Debug|x86
 		{A56716FB-1B8C-4BA0-96BB-06CA1BAEF733}.Release|x86.ActiveCfg = Release|x86
 		{A56716FB-1B8C-4BA0-96BB-06CA1BAEF733}.Release|x86.Build.0 = Release|x86
+		{2FFA351C-E5A6-493B-A07A-D70D71A5B242}.Debug|x86.ActiveCfg = Debug|x86
+		{2FFA351C-E5A6-493B-A07A-D70D71A5B242}.Release|x86.ActiveCfg = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(CodealikeProperties) = postSolution
+		SolutionGuid = 84bcecf1-d2a7-4a0f-9169-1ec414a0b903
 	EndGlobalSection
 EndGlobal
